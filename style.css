@@ -221,16 +221,6 @@ header .container {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-.placeholder-icon {
-    width: 80px;
-    height: 80px;
-    background: rgba(76, 175, 80, 0.1);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 20px;
-}
 
 .placeholder-icon i {
     font-size: 40px;
@@ -527,5 +517,19 @@ footer {
     .image-placeholder {
         width: 250px;
         height: 250px;
+    }
+
+    .ebook-image{
+        max-width: 150px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px;
+    }
+    
+    .ebook-button-wrapper{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
     }
 }
